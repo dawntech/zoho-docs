@@ -25,6 +25,7 @@ Você vai para uma tela assim:
 ![image](./images/tela_generate_code.png)
 
 Role a janela para baixo até encontrar o botão 'CREATE' e clique nesse botão.
+
 10. Nessa tela, clique em 'CRM'
 
 ![image](./images/tela_clicar_crm.png)
