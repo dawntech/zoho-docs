@@ -6,7 +6,7 @@
 3. Clique na opção 'Self Client' e clique em 'CREATE'.
 4. Se abrir uma janela perguntando 'Are you sure to enable self-client?', clique em 'OK'. Você será redirecionado para uma tela assim:
 
-![image](https://drive.google.com/uc?export=view&id=1I3WxByIhXbyM_JHMbcPT2NutreMiNGDO)
+![image](https://doc-08-0s-docs.googleusercontent.com/docs/securesc/tt7pv5a6kriekca37j2ehrg01df0g9b3/ek80m7i1giskt7e731poucds5aobmhod/1648067025000/06912951035512271498/13621911303316140662/1huiGZA7Jv9NevcJufoR5e1bxsslJtq2S?e=view&ax=ACxEAsZlsqMjegBJjz2H3vOeSuSZf3KY1C_hsTW6fGPjzn5RRzz_n8V9sS66uGqZue9Er2HnurJiDXHdA7LXJ4moF1uqIDvSfaIRGbPxiECeeY8WTdq1P1eGhhbK4qdsQ-OMgNrBxN_Ua-kHs_gIn38Sbo_ApZi0M9LbnaoEtFF9bmxZuOzhjl_OmQpoSXyBDxCGy65W1XB8ssN7V8gwd8gfADSOJk6KHvROccPjmo69RmCdkfq0qTSbslPJmd2gmycpS9F1RaH5QpnZ_h31J1RgfVCsNiaBIOqaZfJkuE2tf1iLQ-eRmuUz9yOAk_WzHx6Ghy3d79xIr70hIYVRCvSKmyelAQJufzyvQgAqzPoXBCWeOoq-KMTAMqnDlXsshVWk98BdIWyzU4vIr-ef7sim6_fs8M_RE7bN-w80PktQZsQ9l6o0bZxv10H1PQfg4WzzBW7a1fcR8N0v5YDO69F-rmvIodYfLHLw624HNfL104l_MfNyUBc9DDdIPKQZKKuMme3dn4bNFhzCmmlTkl2l_atQgsWo1xv4pMiP7AvTNsOxa4Tk9cPbTPXWEj2bakRKHO5Orn9QVHX2m0ESO-O9hCXL02sZuEnLUq1H_wuoWgK-zjInarloFknA2KxJHtzPCEzQiN9oDsVAk4kcIOsdY4yw894XbNkA7Mj9jwFGX-SXIbi1XucXUwgUFN3HIbnrRz9wtAqYnRId_w&authuser=0&nonce=fbtc63e6m2668&user=13621911303316140662&hash=r6fvabk4edf8mf97u1ik311l2ie1s91j)
 
 5. Clique em 'Generate Code'.
 
