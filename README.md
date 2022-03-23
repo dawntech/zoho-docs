@@ -6,15 +6,15 @@
 3. Clique na opção 'Self Client' e clique em 'CREATE'.
 4. Se abrir uma janela perguntando 'Are you sure to enable self-client?', clique em 'OK'. Você será redirecionado para uma tela assim:
 
-![image](https://drive.google.com/uc?id=1NysKPoBLhmwRv-ksN59l4oZ6MT5QkPtl&authuser=0&export=download)
+![image](./images/tela_client_id_secret.png)
 
 5. Clique em 'Generate Code'.
 
-![image](https://drive.google.com/uc?export=view&id=1huiGZA7Jv9NevcJufoR5e1bxsslJtq2S)
+![image](./images/tela_go_to_generate_code.png)
 
 Você vai para uma tela assim:
 
-![image](https://drive.google.com/uc?export=view&id=1NBYyeGJsP-dcDh6anMOt3D9FN8NZmueV)
+![image](./images/tela_clean_generate_code.png)
 
 6. No campo 'Scope' você vai definir quais operações o client terá permissão para executar, preencha com o seguinte:
 `ZohoCRM.modules.ALL,ZohoCRM.settings.ALL,ZohoCRM.notifications.READ,ZohoCRM.notifications.CREATE,ZohoCRM.notifications.UPDATE,ZohoCRM.notifications.DELETE,ZohoCRM.users.ALL,ZohoCRM.org.ALL,ZohoCRM.bulk.ALL,ZohoCRM.coql.READ,ZohoFiles.files.ALL `
@@ -22,21 +22,21 @@ Você vai para uma tela assim:
 8. Em 'Scope Description' coloque o que quiser que caracterize o client (não aparecerá pra mais ninguém além de você).
 9. A tela deve estar assim agora:
 
-![image](https://drive.google.com/uc?export=view&id=1w2cGF6Yz5XPGspKKYwQ0HxwXHwO1cdPc)
+![image](./images/tela_generate_code.png)
 
 Role a janela para baixo até encontrar o botão 'CREATE' e clique nesse botão.
 10. Nessa tela, clique em 'CRM'
 
-![image](https://drive.google.com/uc?export=view&id=1peftAqTYaElyxhqLMIyqRhAoGIBSuSBV)
+![image](./images/tela_clicar_crm.png)
 
 Depois, em 'Production' clique no nome da sua empresa
 
-![image](https://drive.google.com/uc?export=view&id=1NysKPoBLhmwRv-ksN59l4oZ6MT5QkPtl)
+![image](./images//tela_clicar_crm_2.png)
 
 Role a janela para baixo até encontrar o botão 'CREATE' e clique nesse botão.
 11. Será gerado um código, que expira em 10 minutos (tempo que foi preenchido no passo 7 desse tutorial):
 
-![image](https://drive.google.com/uc?export=view&id=1VawNvd1FsxeMhPe-KQbJYPQ5aW7dwKYR)
+![image](./images/tela_generated_code.png)
 
 12. Agora abra o Postman, ou algo similar e faça uma requisição com as seguintes informações:
     - Método: `POST`
@@ -50,21 +50,21 @@ Role a janela para baixo até encontrar o botão 'CREATE' e clique nesse botão.
         * grant_type: `authorization_code`
     * A request ficará nesse formato:
     
-    ![image](https://drive.google.com/uc?export=view&id=1GXnTLOmuZm6eIzqTRjttUJGjTtvrAllA)
+    ![image](./images/tela_get_refresh_token_request.png)
     
     * A response esperada é:
     
-    ![image](https://drive.google.com/uc?export=view&id=15_6wyx6gAmGobqiQ3XGg9_oS9L3JT__A)
+    ![image](./images/tela_get_refresh_token_response.png)
 
 13. Acesse https://products.dawntech.dev/ e se já não estiver logado, faça login.
 14. Clique na opção de configurar o Zoho CRM.
 
-![image](https://drive.google.com/uc?export=view&id=1Xg-VBtvTOgaB3h57C1YrA7yaxPFOufWY)
+![image](./images/tela_products_dawntech.png)
 
 15. Preencha os 3 campos.
      - client_id e client_secret são os mesmos que os utilizados no passo 12 desse tutorial.
      - refresh_token é o `refresh_token` que veio na response do passo 12 desse tutorial.
 
-![image](https://drive.google.com/uc?export=view&id=1nzxTrck4ZJVCENKvR4vD1Ji5i-Z8_bGj)
+![image](./images/tela_settings.png)
 
 16. Clique em 'Alterar valores'. Pronto, o seu middleware está middleware está pronto para ser usado.
