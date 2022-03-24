@@ -72,13 +72,13 @@
 13. Acesse https://products.dawntech.dev/ e se já não estiver logado, faça login.
 14. Clique na opção de configurar o Zoho CRM.
 
-![image](./images/tela_products_dawntech.png)
+    ![image](./images/tela_products_dawntech.png)
 
 15. Preencha os 3 campos.
      - client_id e client_secret: mesmos valores que os utilizados no passo 12 desse tutorial.
      - refresh_token: `refresh_token` que veio na response do passo 12 desse tutorial.
 
-![image](./images/tela_settings.png)
+    ![image](./images/tela_settings.png)
 
 16. Clique em 'Alterar valores'. Pronto, o seu middleware está pronto para ser usado.
 
