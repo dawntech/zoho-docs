@@ -34,11 +34,12 @@ Role a janela para baixo até encontrar o botão 'CREATE' e clique nesse botão.
 
 ![image](./images/tela_clicar_crm.png)
 
-Depois, em 'Production' clique no nome da sua empresa
+Depois, em 'Production', clique no nome da sua empresa
 
 ![image](./images//tela_clicar_crm_2.png)
 
 Role a janela para baixo até encontrar o botão 'CREATE' e clique nesse botão.
+
 11. Será gerado um código, que expira em 10 minutos (tempo que foi preenchido no passo 7 desse tutorial):
 
 ![image](./images/tela_generated_code.png)
