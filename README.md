@@ -6,11 +6,11 @@
 3. Clique na opção 'Self Client' e clique em 'CREATE'.
 4. Se for redirecionado para a página abaixo, clique em 'OK'.
 
-![image](./images/tela_confirmation_self_client.png)
+    ![image](./images/tela_confirmation_self_client.png)
 
-Você será redirecionado para essa página:
+    Você será redirecionado para essa página:
 
-![image](./images/tela_client_id_secret.png)
+    ![image](./images/tela_client_id_secret.png)
 
 5. Clique em 'Generate Code'.
 
@@ -79,3 +79,55 @@ Role a janela para baixo até encontrar o botão 'CREATE' e clique nesse botão.
 ![image](./images/tela_settings.png)
 
 16. Clique em 'Alterar valores'. Pronto, o seu middleware está pronto para ser usado.
+
+# Documentação de rotas
+
+## Inserção de leads
+
+- Método: `POST`
+- URL: `https://api.zoho.dawntech.dev/api/leads`
+- Headers: `dawntech-user-id: <user_id>`
+- Body:
+```
+[
+    {
+        "Last_Name": string | Last name of the lead,
+        "First_Name": string | First name of the lead,
+        "Email": string | Email of the lead,
+        "Company": string | Company where the lead works
+    },
+    ...
+]
+```
+
+## Atualização de leads
+- Método: `PUT`
+- URL: `https://api.zoho.dawntech.dev/api/leads/:<id_do_lead_a_ser_atualizado>`
+- Headers: `dawntech-user-id: <user_id>`
+- Body:
+```
+[
+    {
+        "Last_Name": string | Last name of the lead,
+        "First_Name": string | First name of the lead,
+        "Email": string | Email of the lead,
+        "Company": string | Company where the lead works
+    },
+    ...
+]
+```
+
+## Busca de leads
+- Método: `GET`
+- URL: `https://api.zoho.dawntech.dev/api/leads`
+- Headers: `dawntech-user-id: <user_id>`
+
+## Procura de leads
+- Método: `GET`
+- URL: `https://api.zoho.dawntech.dev/api/leads/search?word=<termo_a_ser_procurado>`
+- Headers: `dawntech-user-id: <user_id>`
+
+## Remoção de lead
+- Método: `GET`
+- URL: `https://api.zoho.dawntech.dev/api/leads/search?word=<termo_a_ser_procurado>`
+- Headers: `dawntech-user-id: <user_id>`
