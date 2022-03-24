@@ -4,7 +4,11 @@
 1. Crie uma conta em https://www.zoho.com/pt-br/crm/, não é necessário carregar os dados da amostra.
 2. Vá para https://api-console.zoho.com/ e clique em 'GET STARTED'.
 3. Clique na opção 'Self Client' e clique em 'CREATE'.
-4. Se abrir uma janela perguntando 'Are you sure to enable self-client?', clique em 'OK'. Você será redirecionado para uma tela assim:
+4. Se for redirecionado para a seguinte página, clique em 'OK':
+
+![image](./images/tela_confirmation_self_client.png)
+
+Você será redirecionado para essa página:
 
 ![image](./images/tela_client_id_secret.png)
 
@@ -25,6 +29,7 @@ Você vai para uma tela assim:
 ![image](./images/tela_generate_code.png)
 
 Role a janela para baixo até encontrar o botão 'CREATE' e clique nesse botão.
+
 10. Nessa tela, clique em 'CRM'
 
 ![image](./images/tela_clicar_crm.png)
@@ -67,4 +72,4 @@ Role a janela para baixo até encontrar o botão 'CREATE' e clique nesse botão.
 
 ![image](./images/tela_settings.png)
 
-16. Clique em 'Alterar valores'. Pronto, o seu middleware está middleware está pronto para ser usado.
+16. Clique em 'Alterar valores'. Pronto, o seu middleware está pronto para ser usado.
