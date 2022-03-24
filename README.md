@@ -65,7 +65,7 @@ Role a janela para baixo até encontrar o botão 'CREATE' e clique nesse botão.
     
     ![image](./images/tela_get_refresh_token_response.png)
 
-    Guarde o refresh token
+    Guarde o refresh_token
 
 13. Acesse https://products.dawntech.dev/ e se já não estiver logado, faça login.
 14. Clique na opção de configurar o Zoho CRM.
@@ -75,8 +75,6 @@ Role a janela para baixo até encontrar o botão 'CREATE' e clique nesse botão.
 15. Preencha os 3 campos.
      - client_id e client_secret: valores que podem ser encontrados em 'Client Secret', são os mesmos que os utilizados no passo 12 desse tutorial.
      - refresh_token: `refresh_token` que veio na response do passo 12 desse tutorial.
-
-![image](./images/tela_refresh_token_highlighted.png)
 
 ![image](./images/tela_settings.png)
 
