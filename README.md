@@ -53,6 +53,9 @@ Role a janela para baixo até encontrar o botão 'CREATE' e clique nesse botão.
         * redirect_url: uma url que não é usada nesse middleware, então pode usar um valor qualquer
         * client_id: valor que pode ser encontrado em 'Client Secret', a tela que é aberta no passo 4 desse tutorial
         * client_secret: valor que também pode se encontrado em 'Client Secret'
+
+        ![image](./images/tela_client_secret_highlighted.png)
+
         * grant_type: `authorization_code`
     * A request ficará nesse formato:
     
@@ -68,8 +71,13 @@ Role a janela para baixo até encontrar o botão 'CREATE' e clique nesse botão.
 ![image](./images/tela_products_dawntech.png)
 
 15. Preencha os 3 campos.
-     - client_id e client_secret são os mesmos que os utilizados no passo 12 desse tutorial.
-     - refresh_token é o `refresh_token` que veio na response do passo 12 desse tutorial.
+     - client_id e client_secret: valores que podem ser encontrados em 'Client Secret', a tela que é aberta no passo 4 desse tutorial (são os mesmos que os utilizados no passo 12 desse tutorial).
+
+![image](./images/tela_client_secret_highlighted.png)
+
+     - refresh_token: `refresh_token` que veio na response do passo 12 desse tutorial.
+
+![image](./images/tela_refresh_token_highlighted.png)
 
 ![image](./images/tela_settings.png)
 
