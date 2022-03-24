@@ -14,11 +14,11 @@
 
 5. Clique em 'Generate Code'.
 
-![image](./images/tela_go_to_generate_code.png)
+    ![image](./images/tela_go_to_generate_code.png)
 
-Você vai para uma tela assim:
+    Você vai para uma tela assim:
 
-![image](./images/tela_clean_generate_code.png)
+    ![image](./images/tela_clean_generate_code.png)
 
 6. No campo 'Scope' você vai definir quais operações o client terá permissão para executar, preencha com o seguinte:
 `ZohoCRM.modules.ALL,ZohoCRM.settings.ALL,ZohoCRM.notifications.READ,ZohoCRM.notifications.CREATE,ZohoCRM.notifications.UPDATE,ZohoCRM.notifications.DELETE,ZohoCRM.users.ALL,ZohoCRM.org.ALL,ZohoCRM.bulk.ALL,ZohoCRM.coql.READ,ZohoFiles.files.ALL `
@@ -26,23 +26,23 @@ Você vai para uma tela assim:
 8. Em 'Scope Description' coloque o que quiser que caracterize o client (não aparecerá para mais ninguém além de você).
 9. A tela deve estar assim agora:
 
-![image](./images/tela_generate_code.png)
+    ![image](./images/tela_generate_code.png)
 
-Role a janela para baixo até encontrar o botão 'CREATE' e clique nesse botão.
+    Role a janela para baixo até encontrar o botão 'CREATE' e clique nesse botão.
 
 10. Nessa tela, clique em 'CRM'
 
-![image](./images/tela_clicar_crm.png)
+    ![image](./images/tela_clicar_crm.png)
 
-Depois, em 'Production', clique no nome da sua empresa.
+    Depois, em 'Production', clique no nome da sua empresa.
 
-![image](./images//tela_clicar_crm_2.png)
+    ![image](./images//tela_clicar_crm_2.png)
 
-Role a janela para baixo até encontrar o botão 'CREATE' e clique nesse botão.
+    Role a janela para baixo até encontrar o botão 'CREATE' e clique nesse botão.
 
 11. Será gerado um código, que expira em 10 minutos (tempo que foi preenchido no passo 7 desse tutorial), copie esse código:
 
-![image](./images/tela_generated_code.png)
+    ![image](./images/tela_generated_code.png)
 
 12. Agora abra o Postman, ou software similar e faça uma requisição com as seguintes informações:
     - Método: `POST`
