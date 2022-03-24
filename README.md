@@ -4,7 +4,7 @@
 1. Crie uma conta em https://www.zoho.com/pt-br/crm/, não é necessário carregar os dados da amostra.
 2. Vá para https://api-console.zoho.com/ e clique em 'GET STARTED'.
 3. Clique na opção 'Self Client' e clique em 'CREATE'.
-4. Se for redirecionado para a página abaixo, clique em 'OK':
+4. Se for redirecionado para a página abaixo, clique em 'OK'.
 
 ![image](./images/tela_confirmation_self_client.png)
 
@@ -64,6 +64,8 @@ Role a janela para baixo até encontrar o botão 'CREATE' e clique nesse botão.
     * A response esperada é:
     
     ![image](./images/tela_get_refresh_token_response.png)
+
+    Guarde o refresh token
 
 13. Acesse https://products.dawntech.dev/ e se já não estiver logado, faça login.
 14. Clique na opção de configurar o Zoho CRM.
