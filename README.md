@@ -56,6 +56,8 @@ Role a janela para baixo até encontrar o botão 'CREATE' e clique nesse botão.
         * grant_type: `authorization_code`
 
         ![image](./images/tela_client_secret_highlighted.png)
+        
+        Vai direcionar para a tela exibida no passo 4 desse tutorial.
 
     * A request ficará nesse formato:
     
