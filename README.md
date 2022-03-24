@@ -130,6 +130,6 @@ Role a janela para baixo até encontrar o botão 'CREATE' e clique nesse botão.
 - Headers: `dawntech-user-id: <user_id>`
 
 ## Remoção de lead
-- Método: `GET`
-- URL: `https://api.zoho.dawntech.dev/api/leads/search?word=<termo_a_ser_procurado>`
+- Método: `DELETE`
+- URL: `https://api.zoho.dawntech.dev/api/leads/:<id_do_lead_a_ser_deletado>`
 - Headers: `dawntech-user-id: <user_id>`
