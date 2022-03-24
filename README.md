@@ -40,7 +40,7 @@ Depois, em 'Production', clique no nome da sua empresa
 
 Role a janela para baixo até encontrar o botão 'CREATE' e clique nesse botão.
 
-11. Será gerado um código, que expira em 10 minutos (tempo que foi preenchido no passo 7 desse tutorial):
+11. Será gerado um código, que expira em 10 minutos (tempo que foi preenchido no passo 7 desse tutorial), copie esse código:
 
 ![image](./images/tela_generated_code.png)
 
