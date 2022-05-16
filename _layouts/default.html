@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
 
-{% seo %}
+    {% seo %}
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,10 +30,10 @@
 
       <footer class="site-footer">
         {% if site.github.is_project_page %}
-          <span class="site-footer-owner">{{ site.github.repository_name }}</a> mantido por <a href="https://dawntech.dev">Dawntech</a>.</span>
+          <span class="site-footer-owner">{{ page.title | default: site.title | default: site.github.repository_name }}</a> mantido por <a href="https://dawntech.dev">Dawntech</a>.</span>
       
           <figure>
-            <img src="https://dawntech.dev/static/media/name.c82473d9.png" width="150"/>
+            <img src="https://dawntech.dev/public/logos/dawntech_logo.png" width="150"/>
           </figure>
         {% endif %}
       </footer>
