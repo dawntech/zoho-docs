@@ -67,7 +67,7 @@
 
     Guarde o refresh_token
 
-13. Acesse https://products.dawntech.dev/ e se já não estiver logado, faça login.
+13. Acesse https://products.dawntech.dev/ e se já não estiver logado, faça login. Perceba que além do seu e-mail, aparecerá o seu ID, que será utilizado para acessar o middleware.
 14. Clique na opção de configurar o Zoho CRM.
 
     ![image](./images/tela_products_dawntech.png)
