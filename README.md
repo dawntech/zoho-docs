@@ -1,7 +1,7 @@
 ## Como configurar
 ### Configurações iniciais
-1. Crie uma conta em https://www.zoho.com/pt-br/crm/, não é necessário carregar os dados da amostra.
-2. Vá para https://api-console.zoho.com/ e clique em 'GET STARTED'.
+1. Crie uma conta em <https://www.zoho.com/pt-br/crm/>, não é necessário carregar os dados da amostra.
+2. Vá para <https://api-console.zoho.com/> e clique em 'GET STARTED'.
 3. Clique na opção 'Self Client' e clique em 'CREATE'.
 4. Se for redirecionado para a página abaixo, clique em 'OK'.
 
@@ -67,7 +67,7 @@
 
     Guarde o refresh_token
 
-13. Acesse https://products.dawntech.dev/ e se já não estiver logado, faça login. Perceba que além do seu e-mail, aparecerá o seu ID, que será utilizado para acessar o middleware.
+13. Acesse <https://products.dawntech.dev/> e se já não estiver logado, faça login. Perceba que além do seu e-mail, aparecerá o seu ID, que será utilizado para acessar o middleware.
 14. Clique na opção de configurar o Zoho CRM.
 
     ![image](./images/tela_products_dawntech.png)
@@ -96,9 +96,9 @@ Esse passo é necessário para que Zoho e Blip possam conversar.
 
     ![image](./images/tela_connection_info.png)
 
-4. Vá para https://zoho.dawntech.dev/enable-notification
+4. Vá para <https://zoho.dawntech.dev/enable-notification>
 
-    > Se você for redirecionado para https://products.dawntech.dev/:
+    > Se você for redirecionado para <https://products.dawntech.dev> siga esses passos:
     
     > 4.1 Faça o login se já não estiver feito, e clique em "Acessar produto" ao lado de "Zoho CRM":
 
