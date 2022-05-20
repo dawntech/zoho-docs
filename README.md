@@ -1,3 +1,4 @@
+% Plugin Zoho CRM
 ## Como configurar
 
 1. Crie uma conta em https://www.zoho.com/pt-br/crm/, não é necessário carregar os dados da amostra.
