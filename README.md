@@ -126,13 +126,13 @@ Esse passo é necessário para que Zoho e Blip possam conversar.
 
 1. Acesse o site <https://www.zoho.com/crm/login.html>.
 
-    - Se você não estiver logado, clique em "SIGN IN" e faça o login usando os dados cadastrados no passo 1 das configurações iniciais.
-
-    ![image](./images/tela_not_logged.png)
-
     - Se você já estiver logado, aperte o botão "ACCESS ZOHO CRM".
     
     ![image](./images/tela_already_logged.png)
+
+    - Se você não estiver logado, clique em "SIGN IN" e faça o login usando os dados cadastrados no passo 1 das configurações iniciais.
+
+    ![image](./images/tela_not_logged.png)
 
 2. Clique em "Leads" na barra superior.
 
