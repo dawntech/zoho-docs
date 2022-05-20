@@ -1,6 +1,5 @@
-<!--- Plugin Zoho CRM --->
 ## Como configurar
-
+### Configurações iniciais
 1. Crie uma conta em https://www.zoho.com/pt-br/crm/, não é necessário carregar os dados da amostra.
 2. Vá para https://api-console.zoho.com/ e clique em 'GET STARTED'.
 3. Clique na opção 'Self Client' e clique em 'CREATE'.
@@ -80,6 +79,45 @@
     ![image](./images/tela_settings.png)
 
 16. Clique em 'Alterar valores'. Pronto, o seu middleware está pronto para ser usado.
+
+### Habilitando notificações
+
+Esse passo é necessário para que Zoho e Blip possam conversar.
+
+1. Na sua tela inicial do Blip, entre no seu chatbot Roteador.
+
+    ![image](./images/tela_blip.png)
+
+2. Vá nas configurações.
+
+    ![image](./images/tela_clicar_bot_configs.png)
+
+3. Vá para "Informações de conexão" e guarde os valores do "Cabeçalho de autenticação (Authorization)" e da "Url para enviar comandos".
+
+    ![image](./images/tela_connection_info.png)
+
+4. Vá para https://zoho.dawntech.dev/enable-notification
+    - Se não der certo, acesse através do https://products.dawntech.dev/:
+
+    ![image](./images/tela_products_access_zoho.png)
+
+    1. Clique na aba "Notifications".
+
+    ![image](./images/tela_inicial_zoho_crm.png)
+
+    2. Clique no botão "Enable Notification".
+
+    ![image](./images/tela_notifications_zoho.png)
+
+5. Preencha os campos colocando em "Bot Commands URL" o valor que foi pego da "Url para enviar comandos" no passo 3 e em "Bot Key" o valor que foi pego do "Cabeçalho de autenticação (Authorization)" também no passo 3 e clique em "Enable notification".
+
+    ![image](./images/tela_enable_notification.png)
+
+6. Se tudo der certo, você será redirecionado para a tela inicial do middleware e verá essa notificação no canto inferior esquerdo da tela:
+
+    ![image](./images/success_notification.png)
+
+7. Para visualizar a notificação recém habilitada, clique na aba "Notifications" como mostra o passo 4.1.
 
 # Documentação de rotas
 
