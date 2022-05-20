@@ -78,7 +78,7 @@
 
     ![image](./images/tela_settings.png)
 
-16. Clique em 'Alterar valores'. Pronto, o seu middleware está pronto para ser usado.
+16. Clique em 'Alterar valores'.
 
 ### Habilitando notificações
 
