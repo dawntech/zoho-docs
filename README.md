@@ -153,7 +153,7 @@ Esse passo é necessário para que Zoho e Blip possam conversar.
     "Last_Name": string | Last name of the lead,
     "First_Name": string | First name of the lead,
     "Email": string | Email of the lead,
-    "Secondary_Email": string | AQUI É IMPORTANTE QUE SEJA {{contact.identity}},
+    "Secondary_Email": string | AQUI É IMPORTANTE QUE SEJA O contact.identity,
     "Lead_Status": string* | Status of the lead,
     "Company": string | Company where the lead works
 }
