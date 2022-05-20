@@ -1,5 +1,5 @@
-## Como configurar
-### Configurações iniciais
+# Como configurar
+## Configurações iniciais
 1. Crie uma conta em <https://www.zoho.com/pt-br/crm/>, não é necessário carregar os dados da amostra.
 2. Vá para <https://api-console.zoho.com/> e clique em 'GET STARTED'.
 3. Clique na opção 'Self Client' e clique em 'CREATE'.
@@ -80,7 +80,7 @@
 
 16. Clique em 'Alterar valores'.
 
-### Habilitando notificações
+## Habilitando notificações
 
 Esse passo é necessário para que Zoho e Blip possam conversar.
 
@@ -122,54 +122,70 @@ Esse passo é necessário para que Zoho e Blip possam conversar.
 
 7. Para visualizar a notificação recém habilitada, clique na aba "Notifications" como mostra o passo 4.2.
 
+# Controle de leads pela plataforma Zoho
+
+1. Acesse o site <https://www.zoho.com/crm/login.html>.
+
+    - Se você não estiver logado, clique em "SIGN IN" e faça o login usando os dados cadastrados no passo 1 das configurações iniciais.
+
+    ![image](./images/tela_not_logged.png)
+
+    - Se você já estiver logado, aperte o botão "ACCESS ZOHO CRM".
+    
+    ![image](./images/tela_already_logged.png)
+
+2. Clique em "Leads" na barra superior.
+
+    ![image](./images/tela_initial_zoho_crm.png)
+
+3. Clique no lead que quiser modificar.
+
 # Documentação de rotas
 
 ## Inserção de leads
 
 - Método: `POST`
-- URL: `https://api.zoho.dawntech.dev/api/leads`
+- URL: `https://api.zoho.dawntech.dev/leads`
 - Headers: `dawntech-user-id: <user_id>`
 - Body:
 ```
-[
-    {
-        "Last_Name": string | Last name of the lead,
-        "First_Name": string | First name of the lead,
-        "Email": string | Email of the lead,
-        "Company": string | Company where the lead works
-    },
-    ...
-]
+{
+    "Last_Name": string | Last name of the lead,
+    "First_Name": string | First name of the lead,
+    "Email": string | Email of the lead,
+    "Secondary_Email": string | AQUI É IMPORTANTE QUE SEJA {{contact.identity}},
+    "Lead_Status": string* | Status of the lead,
+    "Company": string | Company where the lead works
+}
 ```
 
 ## Atualização de leads
 - Método: `PUT`
-- URL: `https://api.zoho.dawntech.dev/api/leads/:<id_do_lead_a_ser_atualizado>`
+- URL: `https://api.zoho.dawntech.dev/leads/:<id_do_lead_a_ser_atualizado>`
 - Headers: `dawntech-user-id: <user_id>`
 - Body:
 ```
-[
-    {
-        "Last_Name": string | Last name of the lead,
-        "First_Name": string | First name of the lead,
-        "Email": string | Email of the lead,
-        "Company": string | Company where the lead works
-    },
-    ...
-]
+{
+    "Last_Name": string | Last name of the lead,
+    "First_Name": string | First name of the lead,
+    "Email": string | Email of the lead,
+    "Lead_Status": string* | Status of the lead,
+    "Company": string | Company where the lead works
+}
 ```
+*Possible values for Lead_Status: "Attempted to Contact", "Contact in Future", "Contacted", "Junk Lead", "Lost Lead", "Not Contacted", "Pre-Qualified", "Not Qualified".
 
 ## Busca de leads
 - Método: `GET`
-- URL: `https://api.zoho.dawntech.dev/api/leads`
+- URL: `https://api.zoho.dawntech.dev/leads`
 - Headers: `dawntech-user-id: <user_id>`
 
 ## Procura de leads
 - Método: `GET`
-- URL: `https://api.zoho.dawntech.dev/api/leads/search?word=<termo_a_ser_procurado>`
+- URL: `https://api.zoho.dawntech.dev/leads/search?word=<termo_a_ser_procurado>`
 - Headers: `dawntech-user-id: <user_id>`
 
 ## Remoção de lead
 - Método: `DELETE`
-- URL: `https://api.zoho.dawntech.dev/api/leads/:<id_do_lead_a_ser_deletado>`
+- URL: `https://api.zoho.dawntech.dev/leads/:<id_do_lead_a_ser_deletado>`
 - Headers: `dawntech-user-id: <user_id>`
