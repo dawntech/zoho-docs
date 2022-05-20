@@ -122,6 +122,14 @@ Esse passo é necessário para que Zoho e Blip possam conversar.
 
 7. Para visualizar a notificação recém habilitada, clique na aba "Notifications" como mostra o passo 4.2.
 
+## Registro de leads no Blip
+
+Faça uma requisição HTTP de acordo com a seguinte imagem:
+
+    ![image](./images/tela_lead_registration.png)
+
+Onde config.url tem que ser https://api.zoho.dawntech.dev e config.user é o ID mencionado no passo 13 das configurações iniciais. Vale destacar que É NECESSÁRIO QUE O contact.identity SEJA ENVIADO NO CAMPO "Secondary_Email".
+
 # Controle de leads pela plataforma Zoho
 
 1. Acesse o site <https://www.zoho.com/crm/login.html>.
