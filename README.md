@@ -97,15 +97,15 @@ Esse passo é necessário para que Zoho e Blip possam conversar.
     ![image](./images/tela_connection_info.png)
 
 4. Vá para https://zoho.dawntech.dev/enable-notification
-    - Se não der certo, acesse através do https://products.dawntech.dev/:
+    4.1 Se não der certo, acesse através do https://products.dawntech.dev/:
 
     ![image](./images/tela_products_access_zoho.png)
 
-    1. Clique na aba "Notifications".
+    4.2 Clique na aba "Notifications".
 
     ![image](./images/tela_inicial_zoho_crm.png)
 
-    2. Clique no botão "Enable Notification".
+    4.3 Clique no botão "Enable Notification".
 
     ![image](./images/tela_notifications_zoho.png)
 
@@ -117,7 +117,7 @@ Esse passo é necessário para que Zoho e Blip possam conversar.
 
     ![image](./images/success_notification.png)
 
-7. Para visualizar a notificação recém habilitada, clique na aba "Notifications" como mostra o passo 4.1.
+7. Para visualizar a notificação recém habilitada, clique na aba "Notifications" como mostra o passo 4.2.
 
 # Documentação de rotas
 
