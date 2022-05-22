@@ -126,7 +126,7 @@ Esse passo é necessário para que Zoho e Blip possam conversar.
 
 Faça uma requisição HTTP de acordo com a seguinte imagem:
 
-    ![image](./images/tela_lead_registration.png)
+![image](./images/tela_lead_registration.png)
 
 Onde config.url tem que ser https://api.zoho.dawntech.dev e config.user é o ID mencionado no passo 13 das configurações iniciais. Vale destacar que É NECESSÁRIO QUE O contact.identity SEJA ENVIADO NO CAMPO "Secondary_Email".
 
