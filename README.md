@@ -67,66 +67,24 @@
 
     Guarde o refresh_token
 
-13. Acesse <https://products.dawntech.dev/> e se já não estiver logado, faça login. Perceba que além do seu e-mail, aparecerá o seu ID, que será utilizado para acessar o middleware.
-14. Clique na opção de configurar o Zoho CRM.
+13. Acesse <https://portal.blip.ai//> e se já não estiver logado, faça login. 
+14. Clique nos três pontos no canto direito superior e vá no local desejado.
 
-    ![image](./images/tela_products_dawntech.png)
+    ![image](./images/tela_blip_inicial.png)
 
 15. Preencha os 3 campos.
      - client_id e client_secret: mesmos valores que os utilizados no passo 12 desse tutorial.
      - refresh_token: `refresh_token` que veio na response do passo 12 desse tutorial.
 
-    ![image](./images/tela_settings.png)
+    ![image](./images/tela_settings_zoho.png)
 
-16. Clique em 'Alterar valores'.
-
-## Habilitando notificações
-
-Esse passo é necessário para que Zoho e Blip possam conversar.
-
-1. Na sua tela inicial do Blip, entre no seu chatbot Roteador.
-
-    ![image](./images/tela_blip.png)
-
-2. Vá nas configurações.
-
-    ![image](./images/tela_clicar_bot_configs.png)
-
-3. Vá para "Informações de conexão" e guarde os valores do "Cabeçalho de autenticação (Authorization)" e da "Url para enviar comandos".
-
-    ![image](./images/tela_connection_info.png)
-
-4. Vá para <https://zoho.dawntech.dev/enable-notification>
-
-    > Se você for redirecionado para <https://products.dawntech.dev> siga esses passos:
-    
-    > 4.1 Faça o login se já não estiver feito, e clique em "Acessar produto" ao lado de "Zoho CRM":
-
-    ![image](./images/tela_products_access_zoho.png)
-
-    > 4.2 Clique na aba "Notifications".
-
-    ![image](./images/tela_inicial_zoho_crm.png)
-
-    > 4.3 Clique no botão "Enable Notification".
-
-    ![image](./images/tela_notifications_zoho.png)
-
-5. Preencha os campos colocando em "Bot Commands URL" o valor que foi pego da "Url para enviar comandos" no passo 3 e em "Bot Key" o valor que foi pego do "Cabeçalho de autenticação (Authorization)" também no passo 3 e clique em "Enable notification".
-
-    ![image](./images/tela_enable_notification.png)
-
-6. Se tudo der certo, você será redirecionado para a tela inicial do middleware e verá essa notificação no canto inferior esquerdo da tela:
-
-    ![image](./images/success_notification.png)
-
-7. Para visualizar a notificação recém habilitada, clique na aba "Notifications" como mostra o passo 4.2.
+16. Clique em 'Atualizar'.
 
 ## Registro de leads no Blip
 
 Faça uma requisição HTTP de acordo com a seguinte imagem:
 
-![image](./images/tela_lead_registration.png)
+![image](./images/tela_key_headers.png)
 
 Onde config.url tem que ser https://api.zoho.dawntech.dev e config.user é o ID mencionado no passo 13 das configurações iniciais. Vale destacar que É NECESSÁRIO QUE O contact.identity SEJA ENVIADO NO CAMPO "Secondary_Email".
 
@@ -186,7 +144,9 @@ Onde config.url tem que ser https://api.zoho.dawntech.dev e config.user é o ID 
 ## Busca de leads
 - Método: `GET`
 - URL: `https://api.zoho.dawntech.dev/leads`
-- Headers: `dawntech-user-id: <user_id>`
+- Headers: 
+  - `takeblip-tenant-id: <tenant_id>`
+  - `takeblip-bot-key: <bot_key>`
 
 ## Procura de leads
 - Método: `GET`
