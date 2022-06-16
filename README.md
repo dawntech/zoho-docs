@@ -112,7 +112,9 @@ Onde config.url tem que ser https://api.zoho.dawntech.dev e config.user é o ID 
 
 - Método: `POST`
 - URL: `https://api.zoho.dawntech.dev/leads`
-- Headers: `dawntech-user-id: <user_id>`
+- Headers: 
+  - `takeblip-tenant-id: <tenant_id>`
+  - `takeblip-bot-key: <bot_key>`
 - Body:
 ```
 {
@@ -128,7 +130,9 @@ Onde config.url tem que ser https://api.zoho.dawntech.dev e config.user é o ID 
 ## Atualização de leads
 - Método: `PUT`
 - URL: `https://api.zoho.dawntech.dev/leads/:<id_do_lead_a_ser_atualizado>`
-- Headers: `dawntech-user-id: <user_id>`
+- Headers: 
+  - `takeblip-tenant-id: <tenant_id>`
+  - `takeblip-bot-key: <bot_key>`
 - Body:
 ```
 {
@@ -151,9 +155,13 @@ Onde config.url tem que ser https://api.zoho.dawntech.dev e config.user é o ID 
 ## Procura de leads
 - Método: `GET`
 - URL: `https://api.zoho.dawntech.dev/leads/search?word=<termo_a_ser_procurado>`
-- Headers: `dawntech-user-id: <user_id>`
+- Headers: 
+  - `takeblip-tenant-id: <tenant_id>`
+  - `takeblip-bot-key: <bot_key>`
 
 ## Remoção de lead
 - Método: `DELETE`
 - URL: `https://api.zoho.dawntech.dev/leads/:<id_do_lead_a_ser_deletado>`
-- Headers: `dawntech-user-id: <user_id>`
+- Headers: 
+  - `takeblip-tenant-id: <tenant_id>`
+  - `takeblip-bot-key: <bot_key>`
